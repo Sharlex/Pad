@@ -177,7 +177,7 @@ public class MainActivity extends Activity {
 					
 					}else {
 						Intent i1 = new Intent( MainActivity.this, Editer.class );
-					    i1.putExtra(EXTRA_MESSAGE, "ok");
+					    i1.putExtra(EXTRA_MESSAGE, "ID du bouton ici");
 					    startActivityForResult(i1,0);
 					}
 				}			
@@ -186,6 +186,7 @@ public class MainActivity extends Activity {
 	}
 	
 
+	//Méthode pour récup le son choisi de EDITER 
 	    @Override
 	    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 

@@ -13,4 +13,6 @@
 	<string name="normal">Normal</string>
 	<string name="apropos_txt">Créé par Alexandre Le Guelvouit et Aymeric Dennemont (S4B)</string>
 	<string name="retour">Retour</string>
+	<string name="rechercher">Rechercher</string>
+	<string name="valider">Valider</string>
 </resources>
